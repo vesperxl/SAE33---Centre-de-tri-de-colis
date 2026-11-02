@@ -1,0 +1,67 @@
+# Fichiers objets et bibliothèques
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.ko
+
+# Exécutables
+*.out
+*.exe
+*.app
+a.out
+
+# Fichiers de dépendances générés
+*.d
+
+# Précompilé
+*.gch
+*.pch
+
+# Dossiers de build
+build/
+bin/
+obj/
+out/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+Testing/
+compile_commands.json
+
+# Débogage et profilage
+*.dSYM/
+*.su
+*.idb
+*.pdb
+core
+core.*
+vgcore.*
+*.gcda
+*.gcno
+*.gcov
+callgrind.out.*
+perf.data*
+
+# Logs
+*.log
+
+# Secrets et config locale
+.env
+*.local
+
+# Système / éditeurs
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*~
+.cache/
